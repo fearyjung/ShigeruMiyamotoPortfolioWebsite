@@ -1,0 +1,494 @@
+
+.background {
+  background-color: #fafafa;
+  width: 100%;
+  max-width: auto;
+  margin: auto; 
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: normal;
+  color: #ffffff;
+}
+/*navigation bar*/
+
+.navigationbar {
+  min-height: 103px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 1512px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* changed from 20px all around */
+  background-color: #CC2131;
+  z-index: 1000;
+   box-sizing: border-box; /* prevents overflow */
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+
+.navbartext {
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #CC2131;
+  display: flex;
+  justify-content: center;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #b31d2c;
+}
+
+/*navigation bar*/
+
+.container {
+  display: flex;
+  justify-content: center; /* Aligns horizontally */
+  align-items: center;     /* Aligns vertically */
+}
+
+.img {
+  display:flex;
+  margin: auto;
+  padding: auto;
+  width: 1398px;
+  height: 630px;
+  position: relative;
+}
+
+.categories {
+  font-size: 64px;
+}
+
+.about {
+  font-size: 40px;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* adds space between rectangles */
+}
+
+.rectangle-1 {
+  background-image: url('process1.jpg');
+  height: 611px;
+  width: 478px;
+  background-color: #4f4f4f;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.rectangle-2 {
+   background-image: url('illustration1.jpg'); ;
+  margin: 0 auto;   /* ← missing semicolon fixed */
+  height: 611px;
+  width: 478px;
+  background-color: #000000;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.rectangle-3 {
+   background-image:url('games1.jpg'); ;
+  height: 611px;
+  width: 478px;
+  background-color: #000000;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.rectangle-1:hover {
+ background-image: url(process2.jpg) ;
+  font-size: 18px;
+}
+
+.rectangle-2:hover {
+ background-image: url(illustration2.jpg) ;
+  font-size: 18px;
+}
+
+.rectangle-3:hover {
+ background-image: url(games2.jpg) ;
+  font-size: 18px;
+}
+
+
+.txt {
+   z-index:100;
+
+}
+
+.position   {
+  text-align: start;
+  color: white;
+    font-size:20px;
+    position: relative;
+   margin-top: 85px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+
+}
+
+.portfolio-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 125px; /* Adjust for navbar height */
+  margin-bottom: 20px;
+}
+
+.portfolio-heading {
+  font-size: 64px;
+  color: #000000;
+  margin-right: 1100px;
+   font-weight: normal;
+        font-style: normal;
+        font-family: Jersey 10, sans-serif;
+}
+
+.menubtn {
+  background-image: url(menubtn.png);
+  background-repeat: no-repeat;
+}
+
+.processes-title {
+  margin-left: 10px; 
+  font-size: 64px;
+  margin-top: 40px;
+
+}
+
+.processes-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* Make all images responsive */
+.processes-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Last image spans full width */
+.processes-img img:last-child {
+  grid-column: span 2;
+}
+
+.about-processes {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.illustration-title {
+  margin-top: 20px;
+   margin-right: 10px; 
+  text-align: right;
+font-size: 64px;
+}
+
+.about-illustration {
+   font-size: 40px;
+  margin-top: 20px;
+  margin-right: 20px;
+  text-align: right;
+}
+
+.illustration-img {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 1300px;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+
+
+/* Make all images responsive */
+.illustration-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Last image spans full width */
+.illustration-img img:last-child {
+  grid-column: span 2;
+}
+
+
+.mariogames-title {
+   margin-left: 10px; 
+  font-size: 64px;
+  margin-top: 20px;
+}
+
+.about-mariogames {
+  font-size: 40px;
+   margin-left: 20px;
+
+}
+.games-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; /* centers the grid container */
+}
+
+.games-img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 per row */
+  gap: 20px;
+    position: relative;
+}
+
+.games-img img {
+  width: 340px;
+  height: 510px;
+  display: block;
+}
+
+.games-img img:hover {
+  filter: brightness(50%);
+  transition: filter 0.3s;
+}
+
+
+
+.img__description {
+  border-radius: 48px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(39, 47, 52, 0.72);
+  opacity: 0;
+  width: 340px;
+  height: 510px;
+  font-size: 36px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity .2s, visibility .2s;
+   margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.games-img:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.games-img-1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 per row */
+  gap: 20px;
+    position: relative;
+}
+
+.games-img-1 img {
+  width: 340px;
+  height: 510px;
+  display: block;
+}
+
+.games-img-1 img:hover {
+  filter: brightness(50%);
+  transition: filter 0.3s;
+}
+
+
+
+
+.img__description-1 {
+  text-align: center;
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(39, 47, 52, 0.72);
+  opacity: 0;
+  width: 340px;
+  height: 510px;
+  font-size: 36px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity .2s, visibility .2s;
+   margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.games-img-1:hover .img__description-1 {
+  visibility: visible;
+  opacity: 1;
+}
+.movie-title {
+  font-size: 64px;
+  margin: 25px;
+}
+
+.movie-title {
+  font-size: 64px;
+  margin: 40px 20px;
+}
+
+.movie-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.movie-section.reverse {
+  flex-direction: row-reverse;
+}
+
+
+.movie-img {
+  width: 320px;
+  height: auto;
+  border-radius: 20px;
+}
+
+
+.movie-text {
+  max-width: 500px;
+}
+
+.smm-title,
+.lz-title {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+/* description */
+.smm-summary {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+
+.lz-summary {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+.movie-section.reverse .movie-img {
+  background-color: #000;
+  padding: 20px;
+}
+
+
+
+
+.books-title {
+  font-size: 64px;
+  margin: 40px 20px;
+}
+
+.book-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 60px;
+
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+/* book image */
+.mvsl {
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+}
+
+/* text */
+.book-text {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 0 20px;
+
+}
+
+.mvsl-text {
+  font-size: 36px;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .movie-section,
+  .movie-section.reverse,
+  .book-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .movie-img,
+  .mvsl {
+    width: 80%;
+  }
+
+.menu-btn {
+  font-size: 30px;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 2000;
+  color: white;
+}
+

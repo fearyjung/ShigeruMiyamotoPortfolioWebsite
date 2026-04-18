@@ -1,0 +1,343 @@
+
+body {
+  font-family: 'Jersey 10', sans-serif;
+}
+
+button,
+a,
+div,
+p,
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Jersey 10', sans-serif;
+}
+
+.background {
+  background-color: #fafafa;
+  width: 100%;
+  max-width: auto;
+  margin: auto; 
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: regular;
+  color: #ffffff;
+}
+/*navigation bar*/
+
+.navigationbar {
+  min-height: 103px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 1512px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* changed from 20px all around */
+  background-color: #CC2131;
+  z-index: 1000;
+   box-sizing: border-box; /* prevents overflow */
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+
+.navbartext {
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #CC2131;
+  display: flex;
+  justify-content: center;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #b31d2c;
+}
+/*navigation bar*/
+
+ .video {
+  width: 100%;
+  max-width: 1512px;
+  height: auto;
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+ div.parentElement{text-align: center;}
+ .button{ display: inline-block; }
+
+
+.button {
+  position: static;
+  width: 150px;
+  height:50px;
+  margin: 0 auto;
+  vertical-align: middle;
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+  padding: 10px 20px;
+  border-radius: 43px;
+  cursor: pointer;
+}
+
+
+.button:hover {
+  background-color: #000000; 
+  color: white;
+}
+
+
+
+.item-2{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  background-image: url('Rectangle 111.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:15rem 0;
+  overflow: hidden;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative; /* Ensures absolutely positioned children are relative to this container */
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center; /* Aligns horizontally */
+  align-items: center;     /* Aligns vertically */
+}
+
+
+/* Centered text */
+.centered {
+  font-size: 64px;
+  color: black
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;
+  gap: 20px; /* 🔥 THIS creates space between buttons */
+
+  font-family: Jersey 10, sans-serif;
+  font-size: 40px;
+}
+.button {
+  width: 180px;
+  height: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Jersey 10', sans-serif;
+  font-size: 30px;
+
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 40px;
+
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s ease;
+}
+
+/* Centered text */
+.lrgcentered {
+  
+  font-size: 96px;
+  color: black
+}
+
+.btncentered {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  color: black;
+}
+}
+
+p{
+  white-space: nowrap;
+}
+
+.content {
+width: auto;
+}
+
+
+.quote {
+  margin: 10px;
+  font-family: 'Jersey 10', sans-serif;
+  font-size: 48px;
+  font-style: regular;
+  position: center;
+  text-align: center;
+}
+
+.shigeru {
+  font-family: 'Jersey 10', sans-serif;
+  font-size: 48px;
+  font-style: regular;
+  text-align: right;
+  margin-right: 100px;
+}
+
+.portfolio-img{
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+  position:absolute;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: block;
+  opacity: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.section-wrapper {
+  background-color: #CC2131;
+}
+
+.character-design-background {
+  max-width: 2313px;
+  margin: 0 auto;
+}
+
+.characters {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  max-width: 475px;
+  height: 603px;
+  background-color: white;
+  border-radius: 20px;
+  grid-auto-flow: column;
+  gap: 20px;
+}
+
+.scroll-container {
+  display: flex;
+  background-color:#CC2131;
+  gap: 20px;              /* space between items */
+  padding: 20px;          /* padding around the container */
+ overflow-x: auto;        /* enables horizontal scroll */
+}
+
+.character-designs {
+  padding-top: 50px;
+  font-family: 'Jersey 10', sans-serif;
+  font-size: 48px;
+  font-style: regular;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: auto;
+}
+.game-series {
+  font-family: 'Jersey 10', sans-serif;
+  font-size: 36px;
+  font-style: regular;
+  text-align: left;
+  color: #ffffff;
+}
+
+.timeline-background {
+  background-color: #fafafa;
+  width: 100%;
+  max-width: auto;
+  height: fit-content;
+  margin: auto; 
+} 
+
+.timeline {
+  gap: 50px;
+  position: relative;
+  display: flex;
+position: relative;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("Rectangle 110.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  flex-direction: column;
+  border-radius: 25px;
+  border: 2px solid #000000;
+  padding: 20px;
+  width: 1336px;
+  height: 646px;
+  margin: auto;
+}
+
+.timeline-txt {
+  font-family: 'Jersey 10', sans-serif;
+  font-size: 64px;
+  font-style: regular;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 300px;
+}
+
+.playbutton {
+  padding: 15px 25px;
+  font-family: 'Jersey 10', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #CC2131;
+  border: none;
+  border-radius: 15px;
+  width: 100px;
+}
+
+.playbutton:hover {background-color: #a61523}
+
+.playbutton:active {
+  background-color: #CC2131;
+}
+
+.button-container {
+display:flex;
+
+}
